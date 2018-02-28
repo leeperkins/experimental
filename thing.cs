@@ -12,5 +12,8 @@ namespace leeperkins.experimental
             return 2 * Bobber;
         }
 
+        public int GenerateTrippleBobber() {
+            return Bobber * 3;
+        }
     }
 }

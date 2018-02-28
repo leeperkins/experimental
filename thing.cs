@@ -11,5 +11,9 @@ namespace leeperkins.experimental
         public int GenerateDoubleBobber() {
             return Bobber * 2;
         }
+
+        public string SerializeBobber() {
+            return JSON.stringify(Bobber);
+        }
     }
 }

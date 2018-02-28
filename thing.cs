@@ -13,7 +13,7 @@ namespace leeperkins.experimental
         }
 
         public int GenerateTrippleBobber() {
-            console.log(`GenerateTrippleBobber: Bobber=={Bobber}`);
+            console.log(`GenerateTrippleBobber: Bobber == {Bobber}`);
             return Bobber * 3;
         }
     }

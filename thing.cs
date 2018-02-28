@@ -12,5 +12,9 @@ namespace leeperkins.experimental
             return 2 * Bobber;
         }
 
+        public string SerializeBobber() {
+            console.log(`SerializeBobber: Bobber == {Bobber}`);
+            return JSON.stringify(Bobber);
+        }
     }
 }

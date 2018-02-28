@@ -16,5 +16,10 @@ namespace leeperkins.experimental
             console.log(`GenerateTrippleBobber: Bobber == {Bobber}`);
             return Bobber * 3;
         }
+
+        public string SerializeBobber() {
+            console.log(`SerializeBobber: Bobber == {Bobber}`);
+            return JSON.stringify(Bobber);
+        }
     }
 }

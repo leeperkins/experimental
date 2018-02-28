@@ -9,7 +9,7 @@ namespace leeperkins.experimental
         }
 
         public int GenerateDoubleBobber() {
-            return Bobber * 2;
+            return 2 * Bobber;
         }
 
         public string SerializeBobber() {
